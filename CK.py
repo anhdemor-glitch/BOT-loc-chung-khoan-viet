@@ -49,7 +49,7 @@ GOOGLE_SHEETS_WEBHOOK_URL = (
     os.environ.get("GOOGLE_SHEETS_WEBHOOK_URL", "https://script.google.com/macros/s/AKfycbwQ3orxyV8yVRvChxuGsWIrSpeePae6AVUrJud8m1srbcuK6zZHZ5OOXi4vlLg-lFmL/exec").strip().strip('"').strip("'")
 )
 
-MIN_VALUE_TRADED_BILLION_VND = 5.0  # Thanh khoản tối thiểu (Tỷ VNĐ/phiên)
+MIN_VALUE_TRADED_BILLION_VND = 50.0  # Thanh khoản tối thiểu (Tỷ VNĐ/phiên)
 TOP_N_TO_TRACK_PER_ALGO = 5  # Số mã ĐẠT CHUẨN mỗi bộ lưu vào sổ thống kê mỗi ngày
 CSV_EXPORT_FILENAME = "toan_bo_co_phieu_vn_30_algo.csv"
 EXCEL_TRACKER_FILENAME = "thong_ke_xac_suat_thang_30_algo.xlsx"
