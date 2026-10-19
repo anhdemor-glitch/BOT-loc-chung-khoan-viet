@@ -43,10 +43,10 @@ warnings.filterwarnings("ignore")
 # CẤU HÌNH KẾT NỐI TỰ ĐỘNG TỪ GITHUB SECRETS (HOẶC DÁN TRỰC TIẾP KHI CHẠY PYCHARM)
 # =========================================================================
 DISCORD_WEBHOOK_URL = (
-    os.environ.get("DISCORD_WEBHOOK_URL", "").strip().strip('"').strip("'")
+    os.environ.get("DISCORD_WEBHOOK_URL", "https://discord.com/api/webhooks/1560172581124833294/tFvPQ51-MsxOMGz5JQL5bbGV18Vp8vx71ctLFIPff8kD-xtE8_JK22iBDLj7bNxBvW4M").strip().strip('"').strip("'")
 )
 GOOGLE_SHEETS_WEBHOOK_URL = (
-    os.environ.get("GOOGLE_SHEETS_WEBHOOK_URL", "").strip().strip('"').strip("'")
+    os.environ.get("GOOGLE_SHEETS_WEBHOOK_URL", "https://script.google.com/macros/s/AKfycbwQ3orxyV8yVRvChxuGsWIrSpeePae6AVUrJud8m1srbcuK6zZHZ5OOXi4vlLg-lFmL/exec").strip().strip('"').strip("'")
 )
 
 MIN_VALUE_TRADED_BILLION_VND = 5.0  # Thanh khoản tối thiểu (Tỷ VNĐ/phiên)
